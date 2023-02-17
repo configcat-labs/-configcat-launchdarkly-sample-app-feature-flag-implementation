@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4a86e8 0%,
+    #f7a278 46%,
+    #e6e2af 100%
+  );
+  font-family: "Ubuntu", sans-serif;
+  background-position: center center;
+}
+
+#root{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+main {
+  max-width: 900px;
+  background-color: #00000039;
+  border-radius: 18px 18px 0 0;
+}
+
+label {
+  margin-right: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+caption {
+  margin: 18px 0;
+}
+
+th,
+td {
+  border: 1px solid rgb(110, 108, 108);
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #385ef6;
+  color: white;
+  font-weight: bold;
+}
+
+td {
+  background-color: #ffffff;
+  color: #0e40b6;
+}
+
+.new-student-btn {
+  color: rgb(34, 34, 34);
+  text-transform: uppercase;
+  margin-left: 10px;
+  padding: 2px 12px;
+  background-color: #6bff7f;
+}
+
+.table-id {
+  width: 0px;
+}
+
+.table-crud {
+  text-align: center;
+}
+
+.table-empty-msg {
+  text-align: center;
+}
+
+.table-footer {
+  background-color: transparent;
+  padding: 18px;
+  color: #000000;
+}
+
+.ckecked{
+  color: #006c0e;
+}
+
+span {
+  padding-left: 5px;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+#add-student {
+  margin-right: 10px;
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  margin: 0;
+}
+
+@media screen and (max-width: 420px) {
+  * {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+  }
+}
